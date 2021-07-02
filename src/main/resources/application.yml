@@ -1,0 +1,19 @@
+spring:
+  application.name: sqlite-cipher-example
+  config:
+    use-legacy-processing: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    password: 2c8c9c14abff8525f6a0ffc97bcc6114
+logging:
+  level:
+    root: info
+    org:
+      hibernate:
+        SQL: error
+        type: error
+server:
+  port: 0
